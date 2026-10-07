@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build and compiled outputs
+target/
+build/
+dist/
+dist-ssr/
+out/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Uploaded files and documents
+uploads/
+documents/
+backend/uploads/
+frontend/public/uploads/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iws
+*.iml
+*.ipr
+.eclipse/
+.metadata/
+
+# Passwords, API keys, JWT secrets, credentials
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+secrets.json
+credentials.json
